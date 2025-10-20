@@ -1,0 +1,59 @@
+# =========================================
+# Flutter & Dart
+# =========================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+generated_plugin_registrant.dart
+
+# =========================================
+# Firebase
+# =========================================
+# Do not commit Firebase config files
+google-services.json
+GoogleService-Info.plist
+
+# =========================================
+# Android
+# =========================================
+android/.gradle/
+android/app/build/
+android/local.properties
+*.apk
+*.aar
+*.iml
+
+# =========================================
+# iOS
+# =========================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# =========================================
+# IDE & Editor files
+# =========================================
+.vscode/
+.idea/
+*.iml
+
+# =========================================
+# OS Specific
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Misc
+# =========================================
+*.log
