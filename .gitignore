@@ -1,59 +1,82 @@
-# =========================================
-# Flutter & Dart
-# =========================================
+# Flutter/Dart/Pub related
 .dart_tool/
 .packages
+build/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
 .pub-cache/
 .pub/
-build/
 coverage/
-generated_plugin_registrant.dart
+!.vscode/launch.json
 
-# =========================================
-# Firebase
-# =========================================
-# Do not commit Firebase config files
-google-services.json
-GoogleService-Info.plist
-
-# =========================================
 # Android
-# =========================================
-android/.gradle/
-android/app/build/
-android/local.properties
-*.apk
-*.aar
-*.iml
+.gradle/
+**/gradle-wrapper.jar
+/local.properties
+GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/app/google-services.json
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
 
-# =========================================
 # iOS
-# =========================================
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/Flutter.framework
-ios/Flutter/App.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
-*.xcworkspace
-xcuserdata/
-DerivedData/
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcworkspace/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GoogleService-Info.plist
 
-# =========================================
-# IDE & Editor files
-# =========================================
+# Web
+lib/generated_plugin_registrant.dart
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows
+**/windows/flutter/ephemeral/
+**/windows/GeneratedPluginRegistrant.*
+
+# Linux
+**/linux/flutter/ephemeral/
+**/linux/GeneratedPluginRegistrant.*
+
+# VS Code
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ / Android Studio
 .idea/
 *.iml
 
-# =========================================
-# OS Specific
-# =========================================
-.DS_Store
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.lock
+*.bak
+*.DS_Store
 Thumbs.db
 
-# =========================================
-# Misc
-# =========================================
-*.log
+# Firebase crashlytics
+firebase_app_id_file.json
